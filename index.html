@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Утиные истории
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+             }
+             #nav {background-color: rgb(155, 199, 212);
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #888;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(3, 21, 67);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-color: rgba(213, 2, 1, 0);
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(200, 214, 133);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Утиные истории</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">О мультфильме</a></li>
+                <li><a href="catalog.html">Герои</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">О мультфильме</a></li>
+                    <li><a href="catalog.html">Герои</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Помулярный мультсериал 2000-х</p>
+             </div>
+            <div id="main">
+                <p>Скрудж Макдак и его племянники Билли, Вилли и Дилли попадают в захватывающие приключения, из которых всегда с честью выбираются.</p>
+                <p>Год производства 1987 (4 сезона)</p>
+                <p>Страна Тайвань, Япония, США</p>
+                <p>Жанр мультфильм, комедия, детский, приключения, семейный</p>
+                <p>Время 22 мин</p>
+                <p>Режиссер Боб Хэчкок, Джеймс Т. Уолкер</p>
+            </div>
+        </div>
+        <div id="footer">Знаете ли вы, что персонажи Братьев и Мамаши Гавс из «Утиных историй» Уолта Диснея списаны с реально существовавшей в 1930-е годы бандитской группировки «Barker-Karpis Gang», возглавляемой Мамашей Баркер.</div>
+    </body>
+</html>   
